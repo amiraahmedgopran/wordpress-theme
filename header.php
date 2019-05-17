@@ -11,6 +11,13 @@
         </a>
         <?php add_menus(); ?>
     </nav>
+<!-- small screen navbar -->
+<button class="nav-icon-small"><i class="fa fa-bars"></i></button>
+           <div class="nav-small p-4">
+               <span class="close-menu"><i class="fa fa-close"></i></span>
+               <?php add_menus(); ?>
+        </div>
+
     <div class="contact-us" data-toggle="modal" data-target="#exampleModal">
             <p>اتصل بنا</p>
             <svg width='0' height='0' style='display:none;' version="1.1" xmlns="http://www.w3.org/2000/svg"
@@ -69,7 +76,7 @@
             <svg class='hexagon3'>
                 <use xlink:href="#hexagon3" />
             </svg>
-        </div>
+    </div>
         <!-- Modal -->
         <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
             aria-hidden="true">

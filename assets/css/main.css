@@ -10563,6 +10563,25 @@ header {
     display: none; }
   .nav-large {
     display: none; }
+  .nav-small .top-navbar-items {
+    display: block; }
+    .nav-small .top-navbar-items .menu-item .dropdown-menu {
+      display: block;
+      position: relative;
+      width: 100%;
+      border: 0; }
+    .nav-small .top-navbar-items .menu-item a {
+      color: #28324e;
+      text-decoration: none;
+      display: block; }
+    .nav-small .top-navbar-items .menu-item-has-children .dropdown-toggle {
+      display: flex;
+      align-items: center; }
+      .nav-small .top-navbar-items .menu-item-has-children .dropdown-toggle:after {
+        border: 0;
+        content: "\f067";
+        font-family: 'FontAwesome';
+        margin-right: 10px; }
   header .nav-icon-small {
     display: block;
     background-color: transparent;
